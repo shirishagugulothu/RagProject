@@ -1,0 +1,22 @@
+# requirements.txt - Dependencies for the RAG Document Q&A App
+
+# Core dependencies
+streamlit>=1.28.0
+transformers>=4.21.0
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4
+PyMuPDF>=1.23.0
+
+# Additional dependencies for better functionality
+torch>=1.12.0
+numpy>=1.21.0
+pandas>=1.5.0
+
+# Optional dependencies for enhanced features
+plotly>=5.0.0
+altair>=4.2.0
+
+# Development dependencies (optional)
+# pytest>=7.0.0
+# black>=22.0.0
+# flake8>=5.0.0
